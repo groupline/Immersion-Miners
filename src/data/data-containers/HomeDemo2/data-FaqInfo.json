@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Does My NFT Give Me ownership Of The Mining Hardware ?",
+    "ID": "Text1",
+    "text": "Purchasing one of our IMC NFT does not give you ownership to any mining hardware or hash power"
+  },
+  {
+    "title": "What Do I Receive For My NFT Purchase?",
+    "ID": "Text2",
+    "text": "When you purchase one of our NFT’s, you are automatically enrolled in our mining profit sharing plan and have voting rights to either distribute profits or reinvest for additional mining hardware."
+  },
+  {
+    "title": "How Many NFT's Are Allocated?",
+    "ID": "Text3",
+    "text": "There is a total of 11100 unique NFT art pieces each having a unique name and hand drawn traits. Some more rare than others potentially commanding higher prices on the open market."
+  },
+  {
+    "title": "What type of miners does IMC use?",
+    "ID": "Text4",
+    "text": "We will be using Whatsminer m30s++ miners overclocked to over 130 TH/s"
+  },
+  {
+    "title": "How are we able to overclock our miners?",
+    "ID": "Text5",
+    "text": "Thanks to our connections in the BTC mining industry, we have access to the extra hardware and software needed to overclock these machines. Another key factor is the immersion cooling system we are using to keep the machines cool"
+  },
+  {
+    "title": "Where is the IMC farm going to be located?",
+    "ID": "Text6",
+    "text": "The farm will be located in Buenos Aires, Argentina. We chose this location due to the extremely low energy cost and access to major ports make it easier to transport the miners."
+  }
+]
