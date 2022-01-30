@@ -1,5 +1,5 @@
 import SectionHeading from "../../../components/SectionHeading";
-
+import "./style.css";
 const HowItWorks = ({ data, ClassSpanTitle }) => {
   return (
     <section
@@ -7,11 +7,45 @@ const HowItWorks = ({ data, ClassSpanTitle }) => {
       style={{ paddingBottom: "70px" }}
     >
       <div className="container">
-        <SectionHeading
-          title="Get Started"
-          text="How it works"
-          ClassSpanTitle={ClassSpanTitle}
-        />
+        <div className="section-heading text-center">
+          <div className="dream-dots justify-content-center" data-aos="fade-up">
+            <span className="gradient-text blue">Get Started</span>
+          </div>
+          <h2 data-aos="fade-up">Join Us</h2>
+          <p data-aos="fade-up">
+            <div className="">
+              <ul className="social-ul-sec">
+                <a href="">
+                  <li>
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                  </li>
+                </a>
+                <a
+                  href="https://www.tiktok.com/@immersion.miners"
+                  target="_blank"
+                >
+                  <li>
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                  </li>
+                </a>
+                <a href="https://t.co/dgjCcyrc65" target="_blank">
+                  <li>
+                    <i class="fab fa-discord"></i>
+                    <span>Discord</span>
+                  </li>
+                </a>
+                <a href="https://twitter.com/immersionminers" target="_blank">
+                  <li>
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </p>
+        </div>
 
         <div className="row">
           {data &&
@@ -34,10 +68,7 @@ const HowItWorks = ({ data, ClassSpanTitle }) => {
                     <span className="step-num">{item.steps}</span>
                   </div>
                   <h6>{item.title}</h6>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla neque quam, max imus ut accumsan ut, posuere sit.
-                  </p>
+                  <p>{item.text}</p>
                 </div>
               </div>
             ))}

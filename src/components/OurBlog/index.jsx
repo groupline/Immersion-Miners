@@ -18,9 +18,7 @@ const OurBlog = ({ data, ClassSpanTitle }) => {
               <div className="col-12 col-md-6 col-lg-4" key={key}>
                 <div className="single-blog-area" data-aos="fade-up">
                   {/* Post Thumbnail */}
-                  <div className="blog_thumbnail">
-                    <img draggable="false" src={item.img} alt="" />
-                  </div>
+
                   {/* Post Content */}
                   <div className="blog-content">
                     {/* Dream Dots */}

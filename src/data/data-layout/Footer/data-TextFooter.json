@@ -1,24 +1,16 @@
 [
   {
     "title": "NAVIGATE",
-    "text1": "Advertisers",
-    "text2": "Developers",
-    "text3": "Resources",
-    "text4": "Company",
-    "text5": "Connect",
+    "text1": "Connect Your Wallet",
+    "text2": "Utility",
+    "text3": "White List",
+    "text4": "Start Minting",
+    "text5": "Immersion Mining?",
+    "text6": "White Paper",
+    "text7": "Rewards",
     "classBlock": "col-12 col-lg-2 col-md-6",
     "classInfo": "contact_info mt-s text-center fadeInUp"
   },
-  {
-    "title": "CONTACT US",
-    "text1": "Immersion Miners Club., 1910 Thomas Ave. Cheyenne, WY 82001",
-
-    "text4": "info@immersionmining.club",
-    "classBlock": "col-12 col-lg-3 col-md-6",
-    "classInfo": "contact_info mt-s text-center fadeInUp",
-    "text5": false
-  },
-  {
-    "title": "Copyright © 2019. All rights reserved."
-  }
+  {},
+  {}
 ]

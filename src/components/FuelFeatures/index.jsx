@@ -1,5 +1,5 @@
 import { HomeDemo2Feature1, HomeDemo2SmallCar } from "../../utils/allImgs";
-
+import Rocket from "../../assets/img/rocket.png";
 const FuelFeatures = () => {
   return (
     <section className="special fuel-features section-padding-100 clearfix">
@@ -7,7 +7,7 @@ const FuelFeatures = () => {
         <div className="row align-items-center">
           <div className="col-12 col-lg-6 offset-lg-0 col-md-12 no-padding-left">
             <div className="welcome-meter mb-30">
-              <img draggable="false" src={HomeDemo2Feature1} alt="" />
+              <img draggable="false" width={400} src={Rocket} alt="" />
             </div>
           </div>
           <div className="col-12 col-lg-6 offset-lg-0">
@@ -22,28 +22,9 @@ const FuelFeatures = () => {
               <p className="fadeInUp" data-wow-delay="0.4s">
                 {" "}
                 *This APR is an estimate under the assumption that bitcoin’s
-                price stays at $40,000 and holders do not choose to reinvest at
+                price stays at $30,000 and holders do not choose to reinvest at
                 all*
               </p>
-              <div className="services-block-four align-items-center">
-                <div className="inner-box">
-                  <div className="icon-img-box">
-                    <img
-                      draggable="false"
-                      src={HomeDemo2SmallCar}
-                      alt=""
-                      width={140}
-                    />
-                  </div>
-                  <h3>
-                    <a href="#">great customer experience</a>
-                  </h3>
-                  <div className="text">
-                    Lorem ipsum dolor sit amet, adipisicing elit. Laudantium
-                    modi assumenda beatae.
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

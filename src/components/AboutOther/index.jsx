@@ -1,5 +1,5 @@
 import { HomeDemo1Computer } from "../../utils/allImgs";
-
+import Nft from "../../assets/img/allien3.png";
 const AboutOther = ({ ClassTitle = "gradient-text blue" }) => {
   return (
     <section className="about-us-area section-padding-0-100 clearfix">
@@ -34,7 +34,7 @@ const AboutOther = ({ ClassTitle = "gradient-text blue" }) => {
           </div>
           <div className="col-12 col-lg-6 offset-lg-0 col-md-12 mt-30 no-padding-left">
             <div className="welcome-meter floating-anim fadeInUp">
-              <img draggable="false" src={HomeDemo1Computer} alt="" />
+              <img draggable="false" src={Nft} alt="" />
             </div>
           </div>
         </div>

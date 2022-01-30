@@ -3,15 +3,13 @@ import { addRemoveClassBody } from "../../utils";
 
 import {
   HowItWorksInfo,
-  SmartContractinfo,
   Features2InfoTop,
   Features2InfoDown,
   OurTeamInfo,
   OurBlogInfo,
 } from "../../data/data-containers/HomeDemo2/data-HomeDemo2.js";
 
-import SecPricesInfo from "../../data/data-containers/HomeDemo2/data-SecPricesInfo.json";
-import TokenDistributionInfo from "../../data/data-containers/HomeDemo2/data-TokenDistributionInfo.json";
+// import SecPricesInfo from "../../data/data-containers/HomeDemo2/data-SecPricesInfo.json";
 import RoadmapInfo from "../../data/data-containers/HomeDemo2/data-RoadmapInfo.json";
 import FaqInfo from "../../data/data-containers/HomeDemo2/data-FaqInfo.json";
 
@@ -30,9 +28,7 @@ import AboutOther from "../../components/AboutOther";
 import FuelFeatures from "../../components/FuelFeatures";
 import Features2 from "../../components/Features2";
 import SpreadMap from "../../components/SpreadMap";
-import SmartContract from "../../components/SmartContract";
-import SecPrices from "../../components/SecPrices";
-import TokenDistribution from "../../components/TokenDistribution";
+
 import Roadmap from "../../components/Roadmap";
 import Faq from "../../components/Faq";
 import OurTeam from "../../components/OurTeam";
@@ -68,14 +64,10 @@ const HomeDemo2Container = () => {
       <HowItWorks data={HowItWorksInfo} ClassSpanTitle="gradient-text blue" />
       <AboutOther />
       <FuelFeatures />
-      <SmartContract data={SmartContractinfo} />
-      <SecPrices data={SecPricesInfo} ClassSpanTitle="gradient-text blue" />
+
       <div className="clearfix" />
       <SpreadMap Wwhitepaper={HomeDemo2Wwhitepaper} />
-      <TokenDistribution
-        data={TokenDistributionInfo}
-        ClassSpanTitle="gradient-text blue"
-      />
+
       <Roadmap data={RoadmapInfo} ClassSpanTitle="gradient-text blue" />
       <Faq data={FaqInfo} ClassSpanTitle="gradient-text blue" />
       <OurTeam data={OurTeamInfo} ClassSpanTitle="gradient-text blue" />

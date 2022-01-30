@@ -1,0 +1,129 @@
+.alien-img {
+  margin-left: 250px;
+  margin-top: 0px;
+  width: 400px;
+}
+.main-img {
+  display: flex;
+  flex-direction: column;
+}
+.alien-text {
+  margin-left: 250px;
+}
+.alien-text p {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: white;
+}
+.ds-btn {
+  margin-top: 25px;
+  color: black !important;
+  background-color: #e8bc3f !important;
+  margin-left: 110px;
+  padding: 12px 15px !important;
+}
+@media (max-width: 1210px) {
+  .alien-img {
+    margin-left: 100px;
+    margin-top: 0px;
+    width: 300px;
+  }
+  .alien-text {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .alien-img {
+    margin-left: 130px;
+    margin-top: 00px;
+    width: 400px;
+  }
+  .alien-text {
+    margin-left: 150px;
+  }
+  .ds-btn {
+    margin-top: 25px;
+    color: black !important;
+    background-color: #e8bc3f !important;
+    margin-left: 220px;
+
+    justify-content: center;
+    padding: 12px 15px !important;
+  }
+}
+@media (max-width: 768px) {
+  .alien-img {
+    margin-left: 50px;
+    margin-top: 00px;
+    width: 400px;
+  }
+
+  .ds-btn {
+    margin-top: 25px;
+    color: black !important;
+    background-color: #e8bc3f !important;
+    margin-left: 120px;
+
+    justify-content: center;
+    padding: 12px 15px !important;
+  }
+  .alien-text {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .alien-img {
+    margin-left: 50px;
+    margin-top: 00px;
+    width: 250px;
+  }
+  .alien-text p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: white;
+  }
+
+  .ds-btn {
+    margin-top: 25px;
+    color: black !important;
+    background-color: #e8bc3f !important;
+    margin-left: 100px;
+
+    justify-content: center;
+    padding: 12px 15px !important;
+  }
+  .alien-text {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 428px) {
+  .alien-img {
+    margin-left: 10px;
+    margin-top: 00px;
+    width: 200px;
+  }
+  .alien-text p {
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: white;
+  }
+
+  .ds-btn {
+    margin-top: 25px;
+    color: black !important;
+    background-color: #e8bc3f !important;
+    margin-left: 50px;
+
+    justify-content: center;
+    padding: 8px 10px !important;
+  }
+  .alien-text {
+    margin-left: 10px;
+  }
+}

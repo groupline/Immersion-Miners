@@ -23,25 +23,31 @@ import {
   HomeDemo2BlogImg2,
   HomeDemo2BlogImg3,
 } from "../../../utils/allImgs";
-
+import Andrew from "../../../assets/img/Andrew.png";
+import Jayla from "../../../assets/img/Jayla.png";
+import Taufan from "../../../assets/img/Taufan.png";
+import Jay from "../../../assets/img/Jaelyn.png";
 export const HowItWorksInfo = [
   {
     img1: HomeDemo2IconsH1,
     img2: HomeDemo2IconsH11,
     steps: 1,
-    title: "Register New Account",
+    title: "Follow US",
+    text: "Follow us on Discord and Twitter and keep up to date with the latest on our project.",
   },
   {
     img1: HomeDemo2IconsH2,
     img2: HomeDemo2IconsH22,
     steps: 2,
-    title: "Setup Account Info",
+    title: "Whitelist",
+    text: "beat the crowd and whitelist. Be part of the few allowed for early minting.",
   },
   {
     img1: HomeDemo2IconsH3,
     img2: HomeDemo2IconsH33,
     steps: 3,
-    title: "Start Buying &amp; Selling",
+    title: "Start Mining",
+    text: "Connect you wallet and own unique art pieces that work for you.",
   },
 ];
 
@@ -102,22 +108,22 @@ export const Features2InfoDown = [
 
 export const OurTeamInfo = [
   {
-    img: HomeDemo2TeamImg1,
+    img: Andrew,
     title: "Andrew",
     text: "Founder & CEO",
   },
   {
-    img: HomeDemo2TeamImg2,
+    img: Taufan,
     title: "Taufan",
     text: "Artist",
   },
   {
-    img: HomeDemo2TeamImg3,
+    img: Jayla,
     title: "Jayla",
     text: "Community Administrator",
   },
   {
-    img: HomeDemo2TeamImg4,
+    img: Jay,
     title: "Jay",
     text: "Mining Operations",
   },

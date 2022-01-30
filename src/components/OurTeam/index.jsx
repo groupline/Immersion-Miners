@@ -33,11 +33,7 @@ const OurTeam = ({ data, ClassSpanTitle }) => {
                     <p className="g-text">{item.text}</p>
                   </div>
                   {/* Social Icon */}
-                  <div className="team-social-icon">
-                    <a href="#">
-                      <i className="fa fa-linkedin" />
-                    </a>
-                  </div>
+                  <div className="team-social-icon"></div>
                 </div>
               </div>
             ))}

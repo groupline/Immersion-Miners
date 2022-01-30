@@ -1,22 +1,30 @@
 [
-	{
-		"path":"#about",
-		"nameLink":"About Us"
-	},
-	{
-		"path":"#services",
-		"nameLink":"Services"
-	},
-	{
-		"path":"#faq",
-		"nameLink":"FAQ"
-	},
-	{
-		"path":"#roadmap",
-		"nameLink":"Roadmap"
-	},
-	{
-		"path":"#contact",
-		"nameLink":"Contact"
-	}
+  {
+    "path": "#about",
+    "nameLink": "Connect Your Wallet"
+  },
+  {
+    "path": "#services",
+    "nameLink": "Utility"
+  },
+  {
+    "path": "#faq",
+    "nameLink": "White List"
+  },
+  {
+    "path": "#roadmap",
+    "nameLink": "Start Minting"
+  },
+  {
+    "path": "#contact",
+    "nameLink": "What is Immersion Mining?"
+  },
+  {
+    "path": "#contact",
+    "nameLink": "White Paper"
+  },
+  {
+    "path": "#contact",
+    "nameLink": "Rewards"
+  }
 ]

@@ -1,44 +1,110 @@
 import { SlideCountdown } from "react-fancy-countdown";
 import { Line } from "rc-progress";
-
+import "./style.css";
+import Bullet1 from "../../../assets/img/bullet-1.png";
+import Bullet2 from "../../../assets/img/bullet-2.png";
+import Bullet3 from "../../../assets/img/bullet-3.png";
+import Bullet4 from "../../../assets/img/bullet-4.png";
+// import Bullet4 from "../../../assets/img/bullet-4.png";
 const Counter = ({ icoCounterClass }) => {
   return (
-    <div className="col-12 col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
-      <div className={icoCounterClass}>
-        <div className="counter-down">
-          <div className="content">
-            <div className="conuter-header">
-              <h3 className="w-text text-center">Minting Starts In.....</h3>
-            </div>
-            <div className="counterdown-content">
-              <div className="count-down titled circled text-center">
-                <SlideCountdown weeks={false} deadline="2030-12-31 14:23:22" />
+    <div className="main-counter">
+      <div className=" counter-set  col-12 col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+        <div className={icoCounterClass}>
+          <div className="counter-down">
+            <div className="content">
+              <div className="conuter-header">
+                <h3 className="w-text text-center">Minting Starts In.....</h3>
               </div>
-              <div className="ico-progress">
-                <ul className="list-unstyled list-inline clearfix mb-10">
-                  <li className="title">1,232,100</li>
-                  <li className="strength">2,464,200 MATIC</li>
-                </ul>
-                <div className="current-progress">
-                  <Line
-                    percent="70"
-                    trailWidth="3"
-                    strokeWidth="4"
-                    strokeColor="#fb881d"
+              <div className="counterdown-content">
+                <div className="count-down titled circled text-center">
+                  <SlideCountdown
+                    weeks={false}
+                    deadline="2022-03-03 00:00:00"
                   />
                 </div>
-                <span className="pull-left">Softcapin 45 days</span>
-                <span className="pull-right">in 61 daysHardcap</span>
+                <div className="ico-progress">
+                  <ul className="list-unstyled list-inline clearfix mb-10">
+                    <li className="title">1,232,100</li>
+                    <li className="strength">2,464,200 MATIC</li>
+                  </ul>
+                  <div className="current-progress">
+                    <Line
+                      percent="70"
+                      trailWidth="3"
+                      strokeWidth="4"
+                      strokeColor="#fb881d"
+                    />
+                  </div>
+                  <span className="pull-left">Softcapin 45 days</span>
+                  <span className="pull-right">in 61 daysHardcap</span>
+                </div>
+                <div className="text-center">
+                  <a
+                    className="btn dream-btn mt-30 fadeInUp"
+                    data-wow-delay="0.6s"
+                    href="#"
+                  >
+                    White List
+                  </a>
+                </div>
               </div>
-              <div className="text-center">
-                <a
-                  className="btn dream-btn mt-30 fadeInUp"
-                  data-wow-delay="0.6s"
-                  href="#"
-                >
-                  White List
-                </a>
-              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-bullet">
+        <div className="row-1">
+          <div className="bullet-block">
+            <div className="bullet-img">
+              <img src={Bullet1} />
+            </div>
+            <div className="bullet-heading">
+              <h6>Built On Polygon</h6>
+            </div>
+            <div className="bullet-desc">
+              <p>Our NFT collection is built on the polygon network</p>
+            </div>
+          </div>
+
+          <div className="bullet-block">
+            <div className="bullet-img">
+              <img src={Bullet3} />
+            </div>
+            <div className="bullet-heading">
+              <h6>Unique</h6>
+            </div>
+            <div className="bullet-desc">
+              <p>Each one of our 12,222 pieces of art will be 100% unique</p>
+            </div>
+          </div>
+        </div>
+        <div className="row-2">
+          <div className="bullet-block">
+            <div className="bullet-img">
+              <img src={Bullet2} />
+            </div>
+            <div className="bullet-heading">
+              <h6>Art Work That Earns</h6>
+            </div>
+            <div className="bullet-desc">
+              <p>
+                Holders will earn monthly rewards from our BTC mining facility
+              </p>
+            </div>
+          </div>
+          <div className="bullet-block">
+            <div className="bullet-img">
+              <img src={Bullet4} />
+            </div>
+            <div className="bullet-heading">
+              <h6>Our Miners</h6>
+            </div>
+            <div className="bullet-desc">
+              <p>
+                Monthly rewards will be generated by 250 Whatsminer M30s++, each
+                over clocked to 135/145THS
+              </p>
             </div>
           </div>
         </div>

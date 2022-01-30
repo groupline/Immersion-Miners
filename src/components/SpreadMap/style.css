@@ -1,0 +1,18 @@
+.white-pp {
+  margin-left: 20px !important;
+}
+@media (max-width: 384px) {
+  .white-pp {
+    margin-left: 10px !important;
+  }
+}
+@media (max-width: 375px) {
+  .white-pp {
+    margin-left: 5px !important;
+  }
+}
+@media (max-width: 369px) {
+  .white-pp {
+    margin-left: 0px !important;
+  }
+}
